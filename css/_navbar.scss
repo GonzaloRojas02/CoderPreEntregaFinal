@@ -1,0 +1,16 @@
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(../assets/menu.png);
+}
+
+.navbar{
+  background-color: $color2;
+}
+
+.nav-item {
+  transition: all 0.5s;
+}
+
+.nav-item:hover {
+  background-color: $color1;
+  border-radius: 15px;
+}

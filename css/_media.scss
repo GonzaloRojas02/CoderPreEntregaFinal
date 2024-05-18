@@ -1,0 +1,118 @@
+/* index */
+
+@media (min-width: 992px) {
+    .socios {
+        .contenedor {
+          display: flex;
+          justify-content: space-evenly;
+        }
+      
+        .texto {
+          width: 50%;
+          max-width: 600px;
+          text-align: initial;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+      
+        .socios-img {
+          background-image: url(../assets/socios.jpeg);
+          background-size: cover;
+          background-position: center center;
+          height: 500px;
+          width: 600px;
+        }
+      }
+
+  .estadio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video-estadio {
+    width: 1000px;
+    height: 1000px;
+  }
+
+  .label_hamburguesa {
+    display: none;
+  }
+
+  .ul-links {
+    position: static;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    gap: 1rem;
+    background-color: $color2;
+  }
+
+  .links {
+    font-size: 1.2rem;
+    transition: all 0.3s;
+    padding: 0.2rem 0.7rem;
+  }
+
+  .links:hover {
+    background-color: $color1;
+  }
+
+  /* hacete-socio */
+
+  .rectangulos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 40px;
+  }
+
+  .rec1 {
+    margin-top: 0;
+  }
+
+  .formularios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  /* la bombonera */
+
+  .rectangulos2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .rect1 {
+    height: 1010px;
+    width: 800px;
+    background-color: #fefefe;
+    color: #1c1e36;
+    text-align: left;
+    padding: 15px;
+  }
+
+  .rect2 {
+    height: 1010px;
+    width: 800px;
+    background-color: #27293f;
+    color: #f3b229;
+    text-align: left;
+    padding: 15px;
+  }
+
+  .text-map {
+    text-align: center;
+  }
+
+  .mapa {
+    height: 600px;
+    width: 1000px;
+  }
+}

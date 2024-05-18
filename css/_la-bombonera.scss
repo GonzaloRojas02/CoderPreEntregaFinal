@@ -1,0 +1,91 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../assets/la-bombonera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .banner h2 {
+    color: $color1;
+    text-shadow: 2px 2px 2px black, -2px 2px black, 2px 2px 2px black,
+      -2px -2px 2px black;
+  }
+  
+  .rectangulos2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .rectangulos2 h2 {
+    font-size: 3.25em;
+  }
+  
+  .rectangulos2 h3 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .rectangulos2 dt {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: 300;
+  }
+  
+  .rectangulos strong {
+    font-size: 1em;
+  }
+  
+  .rect1 {
+    height: 930px;
+    width: 100%;
+    background-color: #fefefe;
+    color: #1c1e36;
+    text-align: left;
+    padding: 15px;
+  }
+  
+  .img-bombo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .rect2 {
+    height: 890px;
+    width: 100%;
+    background-color: #27293f;
+    color: #f3b229;
+    text-align: left;
+    padding: 15px;
+  }
+  
+  .accesos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .text-map h2 {
+    background-color: $color4;
+    font-weight: bolder;
+    padding: 40px 0 20px 0;
+  }
+  
+  .mapa {
+    width: 100%;
+    height: 500px;
+  }

@@ -1,0 +1,7 @@
+Para mejorar el SEO implemente:
+
+- Meta descriptions diferentes en todolos los html.
+- Meta keywords diferentes en todos los html.
+- Reduje el peso todo lo posible de las imagenes que superaban el mega.-
+- Agregue titles a todas las paginas.
+- Agregue alt a todas las img posibles.

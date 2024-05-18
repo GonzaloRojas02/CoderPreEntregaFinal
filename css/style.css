@@ -1,0 +1,791 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+footer {
+  background-color: #02236d;
+  color: white;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer p {
+  padding: 15px 0 0 0;
+}
+footer .footer-img {
+  height: 90px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+}
+.redes a {
+  transition: all ease 300ms;
+}
+.redes a:hover {
+  transform: scale(1.2);
+  color: #f3b229;
+}
+
+.red {
+  color: white;
+}
+
+.fa-brands {
+  font-size: 30px;
+  margin: 15px;
+}
+
+.copy {
+  color: #5e5e5e;
+  font-size: 15px;
+}
+
+/* info socios */
+.rectangulos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.rec1 {
+  height: 300px;
+  width: 400px;
+  background-color: #02236d;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 45px;
+  padding: 15px;
+}
+
+.rec2 {
+  height: 300px;
+  width: 400px;
+  background-color: #02236d;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 15px;
+}
+
+.rec3 {
+  height: 300px;
+  width: 400px;
+  background-color: #f3b229;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+  padding: 15px;
+}
+
+.rec1 h2 {
+  color: #f3b229;
+}
+
+.rec2 h2 {
+  color: #f3b229;
+}
+
+/* formularios */
+.formularios {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.formularios form {
+  background-color: #02236d;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  width: 420px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  border-radius: 10px;
+  margin: 25px;
+}
+.formularios form h2 {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 35px;
+}
+
+input {
+  padding: 17px;
+  border-radius: 25px;
+  background-color: transparent;
+  border: 3px solid #f3b229;
+  margin-bottom: 30px;
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+input::-moz-placeholder {
+  color: #7c7c7c;
+}
+input::placeholder {
+  color: #7c7c7c;
+}
+
+.btn {
+  background-color: #f3b229;
+  border: 2px solid #f3b229;
+  cursor: pointer;
+  transition: all 200ms;
+}
+.btn:hover {
+  background-color: #ffcd62;
+  border: 2px solid #ffcd62;
+  transform: scale(1.07);
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/la-bombonera.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.banner h2 {
+  color: #f3b229;
+  text-shadow: 2px 2px 2px black, -2px 2px black, 2px 2px 2px black, -2px -2px 2px black;
+}
+
+.rectangulos2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rectangulos2 h2 {
+  font-size: 3.25em;
+}
+
+.rectangulos2 h3 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.rectangulos2 dt {
+  margin-bottom: 5px;
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.rectangulos strong {
+  font-size: 1em;
+}
+
+.rect1 {
+  height: 930px;
+  width: 100%;
+  background-color: #fefefe;
+  color: #1c1e36;
+  text-align: left;
+  padding: 15px;
+}
+
+.img-bombo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.rect2 {
+  height: 890px;
+  width: 100%;
+  background-color: #27293f;
+  color: #f3b229;
+  text-align: left;
+  padding: 15px;
+}
+
+.accesos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.text-map h2 {
+  background-color: white;
+  font-weight: bolder;
+  padding: 40px 0 20px 0;
+}
+
+.mapa {
+  width: 100%;
+  height: 500px;
+}
+
+.jugador-roman {
+  position: relative;
+  margin: 80px 10px 10px 10px;
+  width: 100%;
+}
+.jugador-roman img {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.jugador-roman .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 1.3em;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+.jugador-roman:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 35, 109, 0.7);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+}
+.jugador-roman:hover:before {
+  opacity: 0;
+}
+.jugador-roman:hover .overlay {
+  opacity: 0;
+}
+
+.jugador-maradona {
+  position: relative;
+  margin: 80px 10px 10px 10px;
+  width: 100%;
+}
+.jugador-maradona img {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.jugador-maradona .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 1.3em;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+.jugador-maradona:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 35, 109, 0.7);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+}
+.jugador-maradona:hover:before {
+  opacity: 0;
+}
+.jugador-maradona:hover .overlay {
+  opacity: 0;
+}
+
+.jugador-palermo {
+  position: relative;
+  margin: 80px 10px 10px 10px;
+  width: 100%;
+}
+.jugador-palermo img {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.jugador-palermo .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 1.3em;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+.jugador-palermo:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 35, 109, 0.7);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+}
+.jugador-palermo:hover:before {
+  opacity: 0;
+}
+.jugador-palermo:hover .overlay {
+  opacity: 0;
+}
+
+.jugador-tevez {
+  position: relative;
+  margin: 80px 10px 10px 10px;
+  width: 100%;
+}
+.jugador-tevez img {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.jugador-tevez .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 1.3em;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+.jugador-tevez:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 35, 109, 0.7);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+}
+.jugador-tevez:hover:before {
+  opacity: 0;
+}
+.jugador-tevez:hover .overlay {
+  opacity: 0;
+}
+
+.jugador-mono {
+  position: relative;
+  margin: 80px 10px 10px 10px;
+  width: 100%;
+}
+.jugador-mono img {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.jugador-mono .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 1.3em;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+.jugador-mono:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 35, 109, 0.7);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+}
+.jugador-mono:hover:before {
+  opacity: 0;
+}
+.jugador-mono:hover .overlay {
+  opacity: 0;
+}
+
+.jugador-battaglia {
+  position: relative;
+  margin: 80px 10px 10px 10px;
+  width: 100%;
+}
+.jugador-battaglia img {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.jugador-battaglia .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 1.3em;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+.jugador-battaglia:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 35, 109, 0.7);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+}
+.jugador-battaglia:hover:before {
+  opacity: 0;
+}
+.jugador-battaglia:hover .overlay {
+  opacity: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e5e5e5;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 2.7em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+/* NavBar */
+.navbar-dark .navbar-toggler-icon {
+  background-image: url(../assets/menu.png);
+}
+
+.navbar {
+  background-color: darkblue;
+}
+
+.nav-item {
+  transition: all 0.5s;
+}
+
+.nav-item:hover {
+  background-color: #f3b229;
+  border-radius: 15px;
+}
+
+/* index.html */
+/* seccion de la portada */
+.portada {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/estadio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.portada h1 {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.portada button {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: blue;
+  transition: all 0.3s ease;
+}
+
+.portada button:hover {
+  background-color: #f3b229;
+  transform: scale(1.05);
+  letter-spacing: 1.5px;
+}
+
+/* seccion de los socios */
+.socios {
+  background-color: darkblue;
+  color: white;
+}
+.socios .contenedor {
+  text-align: center;
+  padding: 200px 12px;
+}
+.socios .contenedor p {
+  padding: 20px 0;
+}
+
+.socios button {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: blue;
+  transition: all 0.3s ease;
+}
+
+.socios button:hover {
+  background-color: #f3b229;
+  transform: scale(1.05);
+  letter-spacing: 1.5px;
+}
+
+.color {
+  color: #f3b229;
+}
+
+/* seccion de la tienda */
+.precio {
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+  cursor: default;
+  transition: all 400ms ease;
+}
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+  transform: translateY(-2%);
+}
+
+.boton-tienda {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: #2655b9;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+.boton-tienda:hover {
+  letter-spacing: 3px;
+  background-color: #02236d;
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(2, 35, 109) 0px 7px 29px 0px;
+}
+.boton-tienda:active {
+  letter-spacing: 3px;
+  background-color: #02236d;
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(2, 35, 109) 0px 0px 0px 0px;
+  transform: translateY(5px);
+  transition: 100ms;
+}
+
+/* seccion estadio */
+.estadio {
+  background-color: darkblue;
+  color: white;
+}
+.estadio button {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: blue;
+  transition: all 0.3s ease;
+}
+.estadio button:hover {
+  background-color: #f3b229;
+  transform: scale(1.05);
+}
+.estadio .contenedor {
+  text-align: center;
+  padding: 50px 10px;
+}
+.estadio .contenedor h2 {
+  padding-bottom: 15px;
+}
+
+.video-estadio {
+  width: 520px;
+  height: 300px;
+}
+
+/* comienzo del responsive */
+/* index */
+@media (min-width: 992px) {
+  .socios .contenedor {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .socios .texto {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .socios .socios-img {
+    background-image: url(../assets/socios.jpeg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 600px;
+  }
+  .estadio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .video-estadio {
+    width: 1000px;
+    height: 1000px;
+  }
+  .label_hamburguesa {
+    display: none;
+  }
+  .ul-links {
+    position: static;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    gap: 1rem;
+    background-color: darkblue;
+  }
+  .links {
+    font-size: 1.2rem;
+    transition: all 0.3s;
+    padding: 0.2rem 0.7rem;
+  }
+  .links:hover {
+    background-color: #f3b229;
+  }
+  /* hacete-socio */
+  .rectangulos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 40px;
+  }
+  .rec1 {
+    margin-top: 0;
+  }
+  .formularios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  /* la bombonera */
+  .rectangulos2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+  }
+  .rect1 {
+    height: 1010px;
+    width: 800px;
+    background-color: #fefefe;
+    color: #1c1e36;
+    text-align: left;
+    padding: 15px;
+  }
+  .rect2 {
+    height: 1010px;
+    width: 800px;
+    background-color: #27293f;
+    color: #f3b229;
+    text-align: left;
+    padding: 15px;
+  }
+  .text-map {
+    text-align: center;
+  }
+  .mapa {
+    height: 600px;
+    width: 1000px;
+  }
+}/*# sourceMappingURL=style.css.map */
