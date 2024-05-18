@@ -1,29 +1,32 @@
-/* index */
+$color1: #f3b229;
+$color2: darkblue;
+$color3: #02236d;
+$color4: white;
 
 @media (min-width: 992px) {
-    .socios {
-        .contenedor {
-          display: flex;
-          justify-content: space-evenly;
-        }
-      
-        .texto {
-          width: 50%;
-          max-width: 600px;
-          text-align: initial;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-        }
-      
-        .socios-img {
-          background-image: url(../assets/socios.jpeg);
-          background-size: cover;
-          background-position: center center;
-          height: 500px;
-          width: 600px;
-        }
-      }
+  .socios {
+    .contenedor {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  
+    .texto {
+      width: 50%;
+      max-width: 600px;
+      text-align: initial;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .socios-img {
+      background-image: url(../assets/socios.jpeg);
+      background-size: cover;
+      background-position: center center;
+      height: 500px;
+      width: 600px;
+    }
+  }
 
   .estadio {
     display: flex;
@@ -62,22 +65,28 @@
   /* hacete-socio */
 
   .rectangulos {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     flex-direction: row;
+    justify-content: space-evenly;
     margin-top: 40px;
-  }
 
-  .rec1 {
-    margin-top: 0;
+    .rec {
+      width: 400px;
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+    .rec:last-child {
+      margin-right: 0;
+    }
   }
 
   .formularios {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: row;
+    justify-content: center;
+
+    form {
+      margin: 25px;
+      width: 420px;
+    }
   }
 
   /* la bombonera */
@@ -114,5 +123,23 @@
   .mapa {
     height: 600px;
     width: 1000px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    margin-bottom: 10px; /* Agregamos un margen inferior de 10px al navbar */
+  }
+
+  .rectangulos {
+    margin-top: 10px; /* Agregamos un margen superior de 10px a los rectángulos */
+    .rec {
+      margin-right: 10px; /* Agregamos un margen derecho de 10px entre los elementos */
+      margin-bottom: 10px; /* Agregamos un margen inferior de 10px entre los elementos */
+    }
+
+    .rec:last-child {
+      margin-right: 0; /* Quitamos el margen derecho del último elemento para evitar un espacio extra */
+    }
   }
 }

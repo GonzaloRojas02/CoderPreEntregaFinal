@@ -1,3 +1,8 @@
+$color1: #f3b229;
+$color2: darkblue;
+$color3: #02236d;
+$color4: white;
+
 .banner {
     display: flex;
     justify-content: center;
@@ -60,7 +65,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
+    display: block;
   }
   
   .rect2 {
@@ -76,7 +82,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
+    display: block;
   }
   
   .text-map h2 {

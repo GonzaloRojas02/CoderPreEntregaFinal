@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 footer {
   background-color: #02236d;
@@ -46,44 +47,19 @@ footer .footer-img {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-wrap: wrap;
   color: white;
 }
-
-.rec1 {
+.rectangulos .rec {
   height: 300px;
-  width: 400px;
-  background-color: #02236d;
-  margin-bottom: 20px;
-  text-align: center;
-  margin-top: 45px;
-  padding: 15px;
-}
-
-.rec2 {
-  height: 300px;
-  width: 400px;
+  width: calc(100% - 40px);
+  max-width: 400px;
   background-color: #02236d;
   margin-bottom: 20px;
   text-align: center;
   padding: 15px;
 }
-
-.rec3 {
-  height: 300px;
-  width: 400px;
-  background-color: #f3b229;
-  margin-bottom: 20px;
-  text-align: center;
-  color: black;
-  padding: 15px;
-}
-
-.rec1 h2 {
-  color: #f3b229;
-}
-
-.rec2 h2 {
+.rectangulos .rec h2 {
   color: #f3b229;
 }
 
@@ -93,14 +69,15 @@ footer .footer-img {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 .formularios form {
   background-color: #02236d;
   display: flex;
   flex-direction: column;
   padding: 50px;
-  width: 420px;
+  width: calc(100% - 40px);
+  max-width: 420px;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
   text-align: center;
   border-radius: 10px;
@@ -197,7 +174,8 @@ input::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  max-width: 100%;
+  display: block;
 }
 
 .rect2 {
@@ -213,7 +191,8 @@ input::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  max-width: 100%;
+  display: block;
 }
 
 .text-map h2 {
@@ -522,7 +501,6 @@ p {
   font-size: 1.25em;
 }
 
-/* NavBar */
 .navbar-dark .navbar-toggler-icon {
   background-image: url(../assets/menu.png);
 }
@@ -540,7 +518,6 @@ p {
   border-radius: 15px;
 }
 
-/* index.html */
 /* seccion de la portada */
 .portada {
   display: flex;
@@ -691,8 +668,6 @@ p {
   height: 300px;
 }
 
-/* comienzo del responsive */
-/* index */
 @media (min-width: 992px) {
   .socios .contenedor {
     display: flex;
@@ -743,20 +718,25 @@ p {
   }
   /* hacete-socio */
   .rectangulos {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     flex-direction: row;
+    justify-content: space-evenly;
     margin-top: 40px;
   }
-  .rec1 {
-    margin-top: 0;
+  .rectangulos .rec {
+    width: 400px;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+  .rectangulos .rec:last-child {
+    margin-right: 0;
   }
   .formularios {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: row;
+    justify-content: center;
+  }
+  .formularios form {
+    margin: 25px;
+    width: 420px;
   }
   /* la bombonera */
   .rectangulos2 {
@@ -787,5 +767,20 @@ p {
   .mapa {
     height: 600px;
     width: 1000px;
+  }
+}
+@media (max-width: 991px) {
+  .navbar {
+    margin-bottom: 10px; /* Agregamos un margen inferior de 10px al navbar */
+  }
+  .rectangulos {
+    margin-top: 10px; /* Agregamos un margen superior de 10px a los rectángulos */
+  }
+  .rectangulos .rec {
+    margin-right: 10px; /* Agregamos un margen derecho de 10px entre los elementos */
+    margin-bottom: 10px; /* Agregamos un margen inferior de 10px entre los elementos */
+  }
+  .rectangulos .rec:last-child {
+    margin-right: 0; /* Quitamos el margen derecho del último elemento para evitar un espacio extra */
   }
 }/*# sourceMappingURL=style.css.map */
