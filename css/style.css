@@ -820,4 +820,18 @@ p {
   .accesos {
     width: 100%;
   }
+  .video-estadio {
+    width: 250px;
+    height: 200px;
+  }
+}
+@media (max-width: 452px) {
+  .rec p {
+    font-size: 1.1em;
+  }
+}
+@media (max-width: 393px) {
+  .rec p {
+    font-size: 0.9em;
+  }
 }/*# sourceMappingURL=style.css.map */

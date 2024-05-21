@@ -178,4 +178,21 @@ $color4: white;
   .accesos {
     width: 100%;
   }
+
+  .video-estadio {
+    width: 250px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 452px){
+  .rec p{
+    font-size: 1.10em;
+  }
+}
+
+@media (max-width: 393px){
+  .rec p{
+    font-size: 0.90em;
+  }
 }
