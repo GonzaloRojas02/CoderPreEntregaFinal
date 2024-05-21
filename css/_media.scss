@@ -9,7 +9,7 @@ $color4: white;
       display: flex;
       justify-content: space-evenly;
     }
-  
+
     .texto {
       width: 50%;
       max-width: 600px;
@@ -18,7 +18,7 @@ $color4: white;
       flex-direction: column;
       justify-content: center;
     }
-  
+
     .socios-img {
       background-image: url(../assets/socios.jpeg);
       background-size: cover;
@@ -160,7 +160,7 @@ $color4: white;
   }
 }
 
-@media (max-width: 835px){
+@media (max-width: 835px) {
   .img-bombo {
     max-width: 80%;
   }
@@ -170,7 +170,7 @@ $color4: white;
   }
 }
 
-@media (max-width: 592px){
+@media (max-width: 592px) {
   .img-bombo {
     max-width: 100%;
   }
@@ -185,14 +185,14 @@ $color4: white;
   }
 }
 
-@media (max-width: 452px){
-  .rec p{
-    font-size: 1.10em;
+@media (max-width: 452px) {
+  .rec p {
+    font-size: 1.1em;
   }
 }
 
-@media (max-width: 393px){
-  .rec p{
-    font-size: 0.90em;
+@media (max-width: 393px) {
+  .rec p {
+    font-size: 0.9em;
   }
 }
