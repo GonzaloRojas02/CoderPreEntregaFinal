@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 footer {
   background-color: #02236d;
@@ -54,13 +53,21 @@ footer .footer-img {
   height: 300px;
   width: calc(100% - 40px);
   max-width: 400px;
-  background-color: #02236d;
   margin-bottom: 20px;
   text-align: center;
   padding: 15px;
 }
 .rectangulos .rec h2 {
   color: #f3b229;
+}
+
+.rec1, .rec2 {
+  background-color: #02236d;
+}
+
+.rec3 {
+  background-color: #f3b229;
+  color: black;
 }
 
 /* formularios */
@@ -174,7 +181,7 @@ input::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 100%;
+  max-width: 65%;
   display: block;
 }
 
@@ -191,7 +198,7 @@ input::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 100%;
+  width: 65%;
   display: block;
 }
 
@@ -761,6 +768,20 @@ p {
     text-align: left;
     padding: 15px;
   }
+  .img-bombo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    display: block;
+  }
+  .accesos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: block;
+  }
   .text-map {
     text-align: center;
   }
@@ -769,18 +790,34 @@ p {
     width: 1000px;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 1254px) {
   .navbar {
-    margin-bottom: 10px; /* Agregamos un margen inferior de 10px al navbar */
+    margin-bottom: 10px;
   }
   .rectangulos {
-    margin-top: 10px; /* Agregamos un margen superior de 10px a los rectángulos */
+    margin-top: 10px;
   }
   .rectangulos .rec {
-    margin-right: 10px; /* Agregamos un margen derecho de 10px entre los elementos */
-    margin-bottom: 10px; /* Agregamos un margen inferior de 10px entre los elementos */
+    margin-right: 10px;
+    margin-bottom: 10px;
   }
   .rectangulos .rec:last-child {
-    margin-right: 0; /* Quitamos el margen derecho del último elemento para evitar un espacio extra */
+    margin-right: 0;
+  }
+}
+@media (max-width: 835px) {
+  .img-bombo {
+    max-width: 80%;
+  }
+  .accesos {
+    width: 80%;
+  }
+}
+@media (max-width: 592px) {
+  .img-bombo {
+    max-width: 100%;
+  }
+  .accesos {
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

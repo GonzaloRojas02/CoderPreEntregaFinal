@@ -16,7 +16,6 @@ $color4: white;
     height: 300px;
     width: calc(100% - 40px);
     max-width: 400px;
-    background-color: $color3;
     margin-bottom: 20px;
     text-align: center;
     padding: 15px;
@@ -25,6 +24,15 @@ $color4: white;
       color: $color1;
     }
   }
+}
+
+.rec1, .rec2{
+  background-color: $color3;
+}
+
+.rec3{
+  background-color: $color1;
+  color: black;
 }
 
 /* formularios */

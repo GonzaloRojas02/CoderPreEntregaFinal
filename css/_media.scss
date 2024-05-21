@@ -116,6 +116,22 @@ $color4: white;
     padding: 15px;
   }
 
+  .img-bombo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    display: block;
+  }
+
+  .accesos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: block;
+  }
+
   .text-map {
     text-align: center;
   }
@@ -126,20 +142,40 @@ $color4: white;
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1254px) {
   .navbar {
-    margin-bottom: 10px; /* Agregamos un margen inferior de 10px al navbar */
+    margin-bottom: 10px;
   }
 
   .rectangulos {
-    margin-top: 10px; /* Agregamos un margen superior de 10px a los rectángulos */
+    margin-top: 10px;
     .rec {
-      margin-right: 10px; /* Agregamos un margen derecho de 10px entre los elementos */
-      margin-bottom: 10px; /* Agregamos un margen inferior de 10px entre los elementos */
+      margin-right: 10px;
+      margin-bottom: 10px;
     }
 
     .rec:last-child {
-      margin-right: 0; /* Quitamos el margen derecho del último elemento para evitar un espacio extra */
+      margin-right: 0;
     }
+  }
+}
+
+@media (max-width: 835px){
+  .img-bombo {
+    max-width: 80%;
+  }
+
+  .accesos {
+    width: 80%;
+  }
+}
+
+@media (max-width: 592px){
+  .img-bombo {
+    max-width: 100%;
+  }
+
+  .accesos {
+    width: 100%;
   }
 }
