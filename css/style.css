@@ -792,9 +792,6 @@ p {
   }
 }
 @media (max-width: 1254px) {
-  .navbar {
-    margin-bottom: 10px;
-  }
   .rectangulos {
     margin-top: 10px;
   }
